@@ -1,3 +1,4 @@
+// Toggle Menu Function
 function toggleMenu() {
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
@@ -5,6 +6,7 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
+// Typewrite function
 class TxtType {
   constructor(el, toRotate, period) {
     this.toRotate = toRotate;
